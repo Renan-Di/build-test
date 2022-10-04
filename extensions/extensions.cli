@@ -1,0 +1,9 @@
+embed-server --std-out=echo  --server-config=standalone-openshift.xml
+    /system-property=sfi.NmProviderURLFonteDadosJDBC:add(value=http+remote://localhost:8080)
+    /system-property=sfi.NmPathBase:add(value=/opt)
+    /system-property=sfi.NmPathBaseJobs:add(value=/opt)
+    /system-property=jasper.reports.compile.class.path:add(value=/opt/eap/modules/net/sf/jasperreports/main/jasperreports-5.6.0.jar)
+    /system-property=file.encoding:add(value=ISO-8859-1)
+    /system-property=sfi.NmProviderURLEJB:add(value=http+remote://localhost:8080)
+    /system-property=sfi.InJVMServidorAplicacao:add(value=true)
+quit
